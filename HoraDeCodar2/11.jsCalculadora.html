@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+
+        <script>
+            var calcular = parseInt(prompt("Escolha qual operação efetuará: 1.Adição 2.Subtração 3.Divisão e 4.Multiplicação ")), valorUm = 0, valorDois = 0, res = 0;
+
+            if (calcular == 1){
+                valorUm = parseInt(prompt("Defina o primeiro valor."));
+                valorDois = parseInt(prompt("Defina o segundo valor."));
+                res = valorUm + valorDois;
+                window.alert("O resultado é: " + res);
+            } if (calcular == 2){
+                valorUm = parseInt(prompt("Defina o primeiro valor."));
+                valorDois = parseInt(prompt("Defina o segundo valor."));
+                res = valorUm - valorDois;
+                window.alert("O resultado é: " + res);
+            }if (calcular == 3){
+                valorUm = parseInt(prompt("Defina o primeiro valor."));
+                valorDois = parseInt(prompt("Defina o segundo valor."));
+                res = valorUm / valorDois;
+                window.alert("O resultado é: " + res);
+            }if (calcular == 4){
+                valorUm = parseInt(prompt("Defina o primeiro valor."));
+                valorDois = parseInt(prompt("Defina o segundo valor."));
+                res = valorUm * valorDois;
+                window.alert("O resultado é: " + res);
+            }else if (calcular > 4){
+                window.alert("Por favor, insira uma opção de operação válida.");
+            }
+
+            </script>
+</head>
+<body>
+    
+</body>
+</html>
